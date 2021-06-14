@@ -1,8 +1,7 @@
 // import logo from './logo.svg';
-import './App.css'
-import React from 'react'
-import Footer from './components/footer'
-import Header from './components/header'
+import React from 'react';
+import Footer from './components/footer';
+import Header from './components/header';
 import { Route, Switch } from 'react-router-dom'
 import Functional from './components/functional'
 import LifeCycle from './components/lifeCycles'
