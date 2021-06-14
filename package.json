@@ -1,7 +1,7 @@
 {
-  "name": "clientv2",
+  "name": "client",
   "version": "0.1.0",
-  "homepage”: “http://{Github-username}.github.io/{Github-repo-name}"
+  "homepage": "http://lauren-northcut.github.io/React",
   "private": true,
   "engines": {
     "node": "16.3.0",
