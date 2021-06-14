@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Footer from './components/footer';
+import Header from './components/header';
+import {  Route, Switch } from 'react-router-dom';
+import Functional from './components/functional';
+import LifeCycle from './components/lifeCycles';
+import Axios from './components/axios';
+import Hooks from './components/hooks';
+import Landing from './components/landing';
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  
+  <>
+  <Header/>
+  
+  <Switch>
+  
+  <Route path='/life-cycles' component={LifeCycle} />          
+  <Route path='/functional' component={Functional} /> 
+  <Route path='/axios' component={Axios} />
+  <Route path='/hooks' component={Hooks}/>
+  <Route path='/' component={Landing}/>
+
+  </Switch>
+  <Footer/>
+  </>
+
+  )
 }
 
 export default App;
