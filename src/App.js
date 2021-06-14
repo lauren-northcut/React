@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
-import React from 'react';
-import Footer from './components/footer';
-import Header from './components/header';
+import React from 'react'
+import Footer from './components/footer'
+import Header from './components/header'
 import { Route, Switch } from 'react-router-dom'
 import Functional from './components/functional'
 import LifeCycle from './components/lifeCycles'
@@ -11,7 +11,7 @@ import Landing from './components/landing'
 
 const App = () => {
   return (
-    <body>
+    <main>
       <Header />
 
       <Switch>
@@ -22,7 +22,7 @@ const App = () => {
         <Route path='/' component={Landing} />
       </Switch>
       <Footer />
-    </body>
+    </main>
   )
 }
 
