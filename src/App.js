@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
 import React from 'react';
 import Footer from './components/footer/index';
-import Header from './components/header';
-import { Route, Switch } from 'react-router-dom'
-import Functional from './components/functional'
-import LifeCycle from './components/lifeCycles'
-import Axios from './components/axios'
-import Hooks from './components/hooks'
-import Landing from './components/landing'
+import Header from './components/header/index';
+import { Route, Switch } from 'react-router-dom';
+import Functional from './components/functional/index';
+import LifeCycle from './components/lifeCycles/index';
+import Axios from './components/axios/index';
+import Hooks from './components/hooks/index';
+import Landing from './components/landing/index';
 
 const App = () => {
   return (
