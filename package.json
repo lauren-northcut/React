@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "http://lauren-northcut.github.io/React",
+  "homepage": "http://lauren-northcut.github.io/React/",
   "private": true,
   "engines": {
     "node": "16.3.0",
