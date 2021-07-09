@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://lauren-northcut.github.io/React/",
+  "homepage": "http://lauren-northcut.github.io/React/",
   "private": true,
   "engines": {
     "node": "16.3.0",
@@ -13,7 +13,6 @@
     "@testing-library/user-event": "^12.1.10",
     "babel-preset-react": "^6.24.1",
     "gh-pages": "^3.2.0",
-    "npm": "^7.19.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
@@ -27,8 +26,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    
     "predeploy": "npm run build ",
-    "deploy": "gh-pages -d build"
+   "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -16,7 +16,7 @@ const App = () => {
         <Header />
 
         <Switch>
-          <Route path='/lifeCycles' component={LifeCycle} />
+          <Route path='/life-cycles' component={LifeCycle} />
           <Route path='/functional' component={Functional} />
           <Route path='/axios' component={Axios} />
           <Route path='/hooks' component={Hooks} />
